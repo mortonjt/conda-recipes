@@ -1,13 +1,21 @@
 package:
   name: deblur
+<<<<<<< HEAD
   version: "1.0.3"
 
 source:
   git_url: https://github.com/biocore/deblur.git
   git_rev: 1.0.3
+=======
+  version: "1.0.4"
+
+source:
+  git_url: https://github.com/biocore/deblur.git
+  git_rev: 1.0.4
+>>>>>>> b3e0495824ac203aa9e53b12497ed40f3ce5c5d3
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -27,7 +35,11 @@ requirements:
     - biom-format
     - setuptools
     - scikit-bio >=0.5.0
+<<<<<<< HEAD
     - vsearch >=2.0.3
+=======
+    - vsearch ==2.0.3
+>>>>>>> b3e0495824ac203aa9e53b12497ed40f3ce5c5d3
     - mafft ==7.310
     - sortmerna ==2.0
     - biom-format
